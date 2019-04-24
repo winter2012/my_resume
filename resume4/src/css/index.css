@@ -1,0 +1,53 @@
+:root {
+  --themeColor: #ff7500;
+}
+
+html {
+  font-size: 12px;
+  color: #6d6b6c;
+  background: #f0f0f0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 48px;
+  color: var(--themeColor);
+}
+
+h2 {
+  font-size: 16px;
+}
+
+a {
+  color: #666;
+}
+a:hover {
+  color: #999;
+}
+
+code {
+  color: #359a62;
+}
+article {
+  margin-top: 50px;
+}
+
+.resume-container {
+  position: relative;
+  margin: 10px auto;
+  width: 800px;
+  height: 1132px;
+  background-color: #fff;
+  box-shadow: 0px 2px 3px 0px #bbb;
+}
+
+footer {
+  /*position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;*/
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}

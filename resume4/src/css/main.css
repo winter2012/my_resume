@@ -1,0 +1,40 @@
+:root {
+  --themeColor: #ff7500;
+}
+
+.resume-main {
+  box-sizing: border-box;
+  height: 100%;
+  width: 60%;
+  padding: 50px 0 0 50px;
+}
+
+.avatar-img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.avatar-name {
+  color: #333;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: bold;
+}
+.avatar-title {
+  margin: 4px 0 2px 0;
+  color: var(--themeColor);
+}
+
+.experience-ctx {
+  border-left: 1px solid #eee;
+  padding: 0 0 30px 40px;
+}
+.experience-ctx:last-child {
+  padding-bottom: 0;
+}
+.exp-time {
+  margin-bottom: 6px;
+  color: var(--themeColor);
+}

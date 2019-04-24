@@ -1,0 +1,24 @@
+<!-- 第一部分：头部导航（逻辑：可以隐藏、显示以此显示嵌入页的全屏）
+嵌入部分：
+第二部分：标题说明、切换按钮组
+第三部分：作品展示效果页 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%= require('html-loader!./layout/head-common.html')  %>
+    <title>详情页</title>
+</head>
+
+<body>   
+    <%= require('html-loader!./layout/nav-sample.html')  %>
+    <main>
+        <div class="page-wrap">
+            <iframe class="iframe" id="work-frame" name="iFrame" frameborder="0"
+             src="./index.html" onload="resizeIframe(this)" ></iframe>      
+        </div>
+    </main>
+    <%= require('html-loader!./layout/footer.html')  %>
+</body>
+
+</html>

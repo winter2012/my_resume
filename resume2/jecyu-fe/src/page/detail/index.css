@@ -1,0 +1,12 @@
+/**
+ * @Author: Jecyu
+ * @Date: 2017-10-26 10:25:05 pm 
+ * @Modified By: JeCyu 
+ * @Last Modified time: 2017-10-27 10:57:32 pm 
+ */
+
+.page-wrap .iframe {
+    width: 1px;
+    min-width: 100%;
+    /* min-height: 1000px; */
+}
